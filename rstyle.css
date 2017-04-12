@@ -1,0 +1,139 @@
+.head {
+  background-color: #1e7145;
+  display: center;
+  height: 70px; }
+
+.maintitle {
+  display: inline-block;
+  margin: 17px 0 17px 30px;
+  font-size: 25px;
+  color: white; }
+
+.addButtonArea {
+  text-align: right;
+  margin-top: -50px;
+  margin-right: 30px; }
+
+.area {
+  text-align: center; }
+
+.title {
+  cursor: pointer;
+  background-color: #cbe86b;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 25%;
+  color: black;
+  width: 50%; }
+
+.list {
+  background-color: #f2e9e1;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: 25%;
+  width: 50%; }
+
+#delBtn {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 37%; }
+
+#myBtn {
+  margin-top: 10px; }
+
+.ing, .editarea, .addarea {
+  display: none; }
+
+.tetitle, .teingredients {
+  width: 100%; }
+
+.teingredients {
+  margin-bottom: 7px; }
+
+.editsave {
+  margin-right: 10px; }
+
+.addrecipe, .recip, .ingre {
+  text-align: left; }
+
+/* The Modal (background) */
+.modal1 {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  text-align: left; }
+
+/* Modal Content */
+.modal-content1 {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s; }
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
+/* The Close Button */
+.close1 {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.modal-header1 {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white; }
+
+.modal-body1 {
+  padding: 2px 16px; }
+
+.modal-footer1 {
+  text-align: right;
+  padding: 12px 16px;
+  background-color: #5cb85c;
+  color: white; }
+
+/*# sourceMappingURL=rstyle.css.map */
